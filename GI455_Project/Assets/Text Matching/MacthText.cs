@@ -11,8 +11,8 @@ public class MacthText : MonoBehaviour
     public void MatchWord()
     {
         string word = matchInput.text;
-        
         wordOutput.text = word;
+
         if (word == "Unity")
         {
             wordOutput.text = "[ <color=Green>Unity</color> ] is found";
